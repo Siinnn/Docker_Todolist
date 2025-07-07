@@ -1,0 +1,75 @@
+# ===== DÉPENDANCES =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== VARIABLES D'ENVIRONNEMENT =====
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===== LOGS =====
+logs/
+*.log
+
+# ===== DONNÉES DE DÉVELOPPEMENT =====
+data/
+postgres_data/
+
+# ===== FICHIERS TEMPORAIRES =====
+.tmp/
+.temp/
+.cache/
+
+# ===== FICHIERS OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== FICHIERS IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== COVERAGE ET TESTS =====
+coverage/
+.nyc_output/
+test-results/
+
+# ===== DOCKER =====
+.docker/
+
+# ===== FICHIERS DE PRÉSENTATION (Non nécessaires pour GitHub) =====
+PLAN-PRESENTATION.md
+SCRIPT-DETAILLE.md
+CHECKLIST-FINALE.md
+export-project.ps1
+fix-docker.ps1
+setup-git.ps1
+GUIDE-DESTINATAIRE.md
+
+# ===== ARCHIVES ET EXPORTS =====
+*.zip
+*.tar
+*.tar.gz
+TodoList-Export-*/
+
+# ===== FICHIERS DE BACKUP =====
+*.bak
+*.backup
+*~
+
+# ===== FICHIERS VIDÉO (Trop volumineux) =====
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ===== FICHIERS DE CONFIGURATION LOCALE =====
+.dockerignore.local
+docker-compose.override.yml
+docker-compose.local.yml 
